@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Ruthie&display=swap");
+
+/* 
+.ruthie-regular {
+    font-family: "Ruthie", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  width: 500px;
+  flex-wrap: wrap;
+}
+.left {
+  height: 80%;
+  width: 50%;
+}
+
+.left .logo img {
+  width: 80px;
+}
+
+.birthday-text {
+  font-size: 40px;
+  font-weight: 800;
+  color: blue;
+  margin-top: 20px;
+}
+
+.highlight {
+  font-family: "Ruthie", cursive;
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  left: 40%;
+  top: 25%;
+  transform: translateX(-50%);
+}
+
+.wish-message {
+  font-size: 16px;
+  font-weight: 600;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.right {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.profile-img {
+  height: 80%;
+  width: 90%;
+  border: 2px solid blue;
+}
+.person {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: #f0f0f0;
+}
+
+.designation {
+  padding: 10px;
+  width: 200px;
+  background-color: darkblue;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 280px;
+}
+.name {
+  font-weight: 700;
+  color: #fff;
+}
+.role {
+  color: #fff;
+}
+
+.footer {
+  margin: auto;
+
+  padding-bottom: 20px;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
